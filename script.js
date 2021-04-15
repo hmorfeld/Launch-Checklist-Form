@@ -38,21 +38,7 @@ window.addEventListener("load", function(){
          window.alert("Add Fuel Level!");
       }
       if (mass.value === ""){
-         window.alert("Add Cargo Mass!")
-      }
-      if (isNaN(fuelLevel.value)){
-         window.alert("Please Enter a Number for Fuel Level!")
-      }
-      if(isNaN(mass.value)){
-         window.alert("Please Enter a Number for Cargo Mass!")
-      }
-      if (!isNaN(name.value)) {
-         window.alert("Please use only letters for Names.");
-         console.log(typeof(name.value))
-      }
-      if (!isNaN(coName.value)){
-         window.alert("Please use only numbers for mass!")
-      }
-
-   });
-})
+         window.alert("Add Cargo Mass!");
+      };
+   })
+})    
